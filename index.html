@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="stylesheet" href="assets/css/about.css">
+
+        <link rel="stylesheet" href="assets/css/gallery.css">
+
+        <title>Responsive bottom navigation</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <!-- <a href="#" class="nav__logo">Marlon</a> -->
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">About Us</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon'></i>
+                                <span class="nav__name">Products</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#payment" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>
+                                <span class="nav__name">Payment</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Gallery</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#feedback" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Feedback</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#enquiry" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Enquiry</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#share" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Share</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="nav__img">
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== HOME ===============-->
+            <section class="container section section__height" id="home">
+                <div class="feedback-container">
+                    <h2 class="section__title">Home</h2>
+                <div class="wrapper">
+                    <div class="col mb-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-map-marker"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Address:</span> HEAD OFFICE Archbull, 610, 6thFloor, Agarwal B2B Centre, Kanchpada, Malad(West Mumbai). BRANCH OFFICE Apsara Happy Hour's, Nai Sadak, Near Delight Talkies, Lashkar, Gwalior.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="text font-weight-bold">
+                                        <p><span>Phone:</span> <p>+91-9325528578, +91-9325528578</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-paper-plane"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Email:</span> <a href="mailto:ppramod.maharana1984@gmail.com" style="font-size: 18px;">ppramod.maharana1984@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Website</span> <a href="#" style="font-size: 18px;">http://www.archbull.in</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <input type="submit" value="Add To Phone Book" class="btn btn-primary btn-block">
+                                <div class="submitting"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <input type="submit" value="Save Card" class="btn btn-primary btn-block">
+                                <div class="submitting"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                
+            </section>
+
+            <!--=============== ABOUT US ===============-->
+            <section class="container section" id="about">
+                <div class="feedback-container">
+                    <h2 class="section__title">About Us</h2>
+                <!-- About Us Start -->
+                <div class="blog-wrapper section-padding-100-0 clearfix">
+                    <div class="container">
+                        <div class="row align-items-end">
+                            <!-- Single Blog Area -->
+                            <div class="col-12 col-lg-6">
+                                <div class="single-blog-area clearfix mb-100">
+                                    <!-- Blog Content -->
+                                    <div class="single-blog-content">
+                                        <div class="line"></div>
+                                        <h4><a href="#" class="post-headline">ABOUT US</a></h4>
+                                        <h6><a href="#" class="post-headline">Company Name : ARCHBULL</a></h6>
+                                        <h6><a href="#" class="post-headline text-bold">Nature of Business : Service provider, Architect and Interior Designer, Art Director Film Industry</a></h6>
+                                        <p class="mb-3 mt-3">If you are looking for the residential setup design like Bollywood and TV Serials, then you are at the right place. We have best options according to your requirements & budgets
+                                            Archbull studio headed by Pramod Maharana prides itself over 15 years of service expertise combined with a solid business sense
+                                            His design underlines the philosophy of creating design concepts that are unique to each client, creating value addition to every project in terms of quality, time and cost yet stylish and comfortable. And also recreating an art from waste remodelling  to make the full utilisation. His craft designs the represent the perfect blend of beautiful long lasting space designed with consideration of people and space.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Blog Area -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-catagory-area clearfix mb-100">
+                                    <img src="./assets/img/enquiry.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Us End -->
+                </div>
+                
+            </section>
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="container" id="products">
+                <div  class="feedback-container">
+                <h2 class="section__title">Products</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <button class="download-btn">Download Product Card</button>
+                                <img src="./assets/img/enquiry.jpg" alt="">
+                                <p class="mt-3 text-center font-bold">HALL</p>
+                                <button class="enquiry-btn">Enquiry</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <button class="download-btn">Download Product Card</button>
+                                <img src="./assets/img/enquiry.jpg" alt="">
+                                <p class="mt-3 text-center font-bold">KITCHEN</p>
+                                <button class="enquiry-btn">Enquiry</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-card">
+                                <button class="download-btn">Download Product Card</button>
+                                <img src="./assets/img/enquiry.jpg" alt="">
+                                <p class="mt-3 text-center font-bold">DINING HALL</p>
+                                <button class="enquiry-btn">Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== PAYMENT ===============-->
+            <section class="container section" id="payment">
+                <div class="feedback-container">
+                    <h2 class="section__title">Payment</h2>
+                    <!-- Payment section Start -->
+                    <section class="ftco-section">
+                        <h5 class="post-headline">Google Pay Number: 888888888</h5>
+                        <h5 class="sub-heading">QR Codes</h5>
+                        <h5 class="sub-heading">Google Pay</h5>
+                        <img src="./assets/img/qr-code.jpg" alt="QR Code" class="qr-code">
+                        <h5 class="sub-heading">Phone Pe</h5>
+                        <img src="./assets/img/qr-code.jpg" alt="QR Code" class="qr-code">
+                    </section>
+                    <!-- Payment section End -->
+                </div>
+            </section>
+
+            <!--=============== GALLERY ===============-->
+            <section class="container" id="gallery">
+                <div class="feedback-container">
+                    <h2 class="section__title">Gallery</h2>
+                <div class="container-fluid pt70 pb70 mb-6">
+                    <div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
+                        <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div>
+                        <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div>
+                        <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div>
+                        <!-- <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div>
+                        <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div>
+                        <div class="fh5co-project masonry-brick">
+                            <a href="single.html">
+                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
+                                <h2>Your Project Title Here</h2>
+                            </a>
+                        </div> -->
+                        </div>
+                    <!--END .fh5co-projects-feed-->
+                </div>
+                </div>
+                
+            </section>
+
+            <!--=============== FEEDBACK ===============-->
+            <section class="container mt-6" id="feedback">
+                <!-- <h2 class="section__title" style="margin-top: 80px;">Feedback</h2> -->
+                <div class="feedback-container">
+                    <h1 class="section__title">Feedback</h1>
+                    <div class="ratings">
+                        <p class="ratings-text">Rate your experience:</p>
+                        <div class="star-rating">
+                            <!-- Stars will be added dynamically based on user interaction -->
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <button class="load-more-btn">Load More Feedbacks</button>
+                    <form class="feedback-form">
+                        <div class="stars-row">
+                            <!-- Stars will be added dynamically based on user interaction -->
+                        </div>
+                        <input type="text" placeholder="Enter your name">
+                        <textarea placeholder="Enter your message"></textarea>
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!--=============== ENQUIRY ===============-->
+            <section class="container section section__height" id="enquiry">
+
+                <!-- Enquiry Form Start -->
+                <div class="feedback-container">
+                    <h2 class="section__title">Enquiry Form</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="wrapper">
+                                <!-- <div class="row mb-5">
+                                    <div class="col-md-3">
+                                        <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-map-marker"></span>
+                                    </div>
+                                    <div class="text">
+                                    <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="text">
+                                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-paper-plane"></span>
+                                    </div>
+                                    <div class="text">
+                                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="text">
+                                    <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                    </div>
+                                </div>
+                                    </div>
+                                </div> -->
+                                <div class="row no-gutters">
+                                    <div class="col-md-7">
+                                        <div class="contact-wrap w-100 p-md-5 p-4">
+                                            <h3 class="mb-4">Contact Us</h3>
+                                            <div id="form-message-warning" class="mb-4"></div> 
+                                        <div id="form-message-success" class="mb-4">
+                                    Your message was sent, thank you!
+                                        </div>
+                                            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="label" for="name">Full Name</label>
+                                                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6"> 
+                                                        <div class="form-group">
+                                                            <label class="label" for="email">Email Address</label>
+                                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="label" for="phone-number">Phone number</label>
+                                                            <input type="text" class="form-control" name="phone-number" id="phone-number" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label class="label" for="#">Message</label>
+                                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="submit" value="Send Message" class="btn btn-primary">
+                                                            <div class="submitting"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 d-flex align-items-stretch">
+                                        <div class="info-wrap w-100 p-5 img" style="background-image: url(./assets/img/enquiry.jpg);">
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Enquiry Form End -->
+            </section>
+
+            <!--=============== SHARE ===============-->
+            <section class="container section section__height" id="share">
+                <h2 class="section__title">Share</h2>
+            </section>
+        </main>
+        
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
