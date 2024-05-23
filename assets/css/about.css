@@ -1413,3 +1413,34 @@ textarea:focus ~ .highlight {
 /* The End */
 
 /*# sourceMappingURL=style.css.map */
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* border: 2px solid #ccc; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.service {
+  padding: 20px;
+  /* background-color: #f8f8f8; */
+}
+
+.service h3 {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .services-container {
+      display: flex;
+  }
+
+  .service {
+      flex: 1;
+  }
+
+  .service:first-child {
+      margin-right: 20px;
+  }
+}

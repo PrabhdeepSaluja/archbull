@@ -246,6 +246,7 @@ figure {
 
 .feedback-container {
   max-width: 1000px;
+  overflow: hidden;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
