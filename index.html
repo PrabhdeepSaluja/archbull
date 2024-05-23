@@ -18,6 +18,16 @@
 
         <link rel="stylesheet" href="assets/css/gallery.css">
 
+        <link rel="stylesheet" href="assets/css/gallery-2.css">
+
+        <link rel="stylesheet" href="assets/css/home.css"> 
+
+        <link rel="stylesheet" href="assets/css/home-2.css"> 
+
+        <link rel="stylesheet" href="assets/css/products.css"> 
+
+        <!-- <link rel="stylesheet" href="assets/css/payment.css"> -->
+
         <title>Responsive bottom navigation</title>
     </head>
     <body>
@@ -92,355 +102,561 @@
 
         <main>
             <!--=============== HOME ===============-->
-            <section class="container section section__height" id="home">
-                <div class="feedback-container">
-                    <h2 class="section__title">Home</h2>
-                <div class="wrapper">
-                    <div class="col mb-5">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-map-marker"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Address:</span> HEAD OFFICE Archbull, 610, 6thFloor, Agarwal B2B Centre, Kanchpada, Malad(West Mumbai). BRANCH OFFICE Apsara Happy Hour's, Nai Sadak, Near Delight Talkies, Lashkar, Gwalior.</p>
-                                    </div>
+            <section class="container section">
+                <div class="ftco-section" id="home">
+                    <div class="feedback-container">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 text-center mb-5">
+                                    <h2 class="heading-section">HOME</h2>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-phone"></span>
-                                    </div>
-                                    <div class="text font-weight-bold">
-                                        <p><span>Phone:</span> <p>+91-9325528578, +91-9325528578</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-paper-plane"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:ppramod.maharana1984@gmail.com" style="font-size: 18px;">ppramod.maharana1984@gmail.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-globe"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Website</span> <a href="#" style="font-size: 18px;">http://www.archbull.in</a></p>
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-6">
+                                                <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                    <h3 class="mb-4">Send us a message</h3>
+                                                    <div id="form-message-warning" class="mb-4"></div> 
+                                              <div id="form-message-success" class="mb-4">
+                                            Your message was sent, thank you!
+                                              </div>
+                                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12"> 
+                                                                <div class="form-group">
+                                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                                    <div class="submitting"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex align-items-stretch">
+                                                <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                                    <h3>Contact us</h3>
+                                                    <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="dbox w-100 d-flex align-items-start">
+                                                                <div class="icon d-flex align-items-center justify-content-center">
+                                                                    <span class="fa fa-map-marker"></span>
+                                                                </div>
+                                                                <div class="text pl-3">
+                                                                    <p>Mr. Pramod Maharana</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dbox w-100 d-flex align-items-center">
+                                                                <div class="icon d-flex align-items-center justify-content-center">
+                                                                    <span class="fa fa-paper-plane"></span>
+                                                                </div>
+                                                                <div class="text pl-3">
+                                                                    <p>Kanchpada, Malad(West Mumbai)</p>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="dbox w-100 d-flex align-items-center">
+                                                                <div class="icon d-flex align-items-center justify-content-center">
+                                                                    <span class="fa fa-phone"></span>
+                                                                </div>
+                                                                <div class="text pl-3">
+                                                                    <p>+91-9325528578</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dbox w-100 d-flex align-items-center">
+                                                                <div class="icon d-flex align-items-center justify-content-center">
+                                                                    <span class="fa fa-globe"></span>
+                                                                </div>
+                                                                <div class="text pl-3">
+                                                                    <p>ppramod.maharana1984@gmail.com</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="dbox w-100 d-flex align-items-center">
+                                                                <div class="icon d-flex align-items-center justify-content-center">
+                                                                    <span class="fa fa-globe"></span>
+                                                                </div>
+                                                                <div class="text pl-3">
+                                                                    <p>http://www.archbull.in</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="submit" value="Add To Phone Book" class="btn btn-primary btn-block">
-                                <div class="submitting"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="submit" value="Save Card" class="btn btn-primary btn-block">
-                                <div class="submitting"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                
-                
             </section>
+            
 
             <!--=============== ABOUT US ===============-->
-            <section class="container section" id="about">
+            <section class="ftco-section" id="about">
                 <div class="feedback-container">
-                    <h2 class="section__title">About Us</h2>
-                <!-- About Us Start -->
-                <div class="blog-wrapper section-padding-100-0 clearfix">
                     <div class="container">
-                        <div class="row align-items-end">
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-lg-6">
-                                <div class="single-blog-area clearfix mb-100">
-                                    <!-- Blog Content -->
-                                    <div class="single-blog-content">
-                                        <div class="line"></div>
-                                        <h4><a href="#" class="post-headline">ABOUT US</a></h4>
-                                        <h6><a href="#" class="post-headline">Company Name : ARCHBULL</a></h6>
-                                        <h6><a href="#" class="post-headline text-bold">Nature of Business : Service provider, Architect and Interior Designer, Art Director Film Industry</a></h6>
-                                        <p class="mb-3 mt-3">If you are looking for the residential setup design like Bollywood and TV Serials, then you are at the right place. We have best options according to your requirements & budgets
-                                            Archbull studio headed by Pramod Maharana prides itself over 15 years of service expertise combined with a solid business sense
-                                            His design underlines the philosophy of creating design concepts that are unique to each client, creating value addition to every project in terms of quality, time and cost yet stylish and comfortable. And also recreating an art from waste remodelling  to make the full utilisation. His craft designs the represent the perfect blend of beautiful long lasting space designed with consideration of people and space.</p>
-                                    </div>
-                                </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">ABOUT US</h2>
                             </div>
-                            <!-- Single Blog Area -->
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-catagory-area clearfix mb-100">
-                                    <img src="./assets/img/enquiry.jpg" alt="">
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                        <div class="col-md-12 d-flex align-items-stretch">
+                                            <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                                <h5>Our Specialities</h5>
+                                                    <ul>
+                                                        <li>Knowledgeable team of professionals</li>
+                                                        <li>Complete client satisfaction</li>
+                                                        <li>Ethical business policies</li>
+                                                        <li>Affordable pricing</li>
+                                                        <li>On-time deliver/ execution</li>
+                                                        <li>Qualitative products</li>
+                                                        <li>Reliable services</li>
+                                                        <li>Ability to undertake bulk orders</li>
+                                                        <li>Live In Touch With Our Customers</li>
+                                                        <li>Transparent dealings</li>
+                                                        <li>Easy payment mode</li>
+                                                        <li>Customized solutions</li>
+                                                        <li>Best Consultancy</li>
+                                                        <li>Wide connectivity</li>
+                                                        <li>Use of advanced technology</li>
+                                                        <li>We listen,We understand, We provide Solution</li>
+                                                        <li>We Provide Pan India services</li>
+                                                        <li>A great experience with Happy clients</li>
+                                                        <li>Low Price Guarantee with best services</li>
+                                                    </ul>
+                                                <p class="mt-4">If you are looking for the residential setup design like Bollywood and TV Serials, then you are at the right place. We have best options according to your requirements & budgets
+                                                    Archbull studio headed by Pramod Maharana prides itself over 15 years of service expertise combined with a solid business sense
+                                                   His design underlines the philosophy of creating design concepts that are unique to each client, creating value addition to every project in terms of quality, time and cost yet stylish and comfortable. And also recreating an art from waste remodelling  to make the full utilisation. His craft designs the represent the perfect blend of beautiful long lasting space designed with consideration of people and space</p>
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- About Us End -->
                 </div>
                 
             </section>
 
             <!--=============== PRODUCTS ===============-->
-            <section class="container" id="products">
-                <div  class="feedback-container">
-                <h2 class="section__title">Products</h2>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="product-card">
-                                <button class="download-btn">Download Product Card</button>
-                                <img src="./assets/img/enquiry.jpg" alt="">
-                                <p class="mt-3 text-center font-bold">HALL</p>
-                                <button class="enquiry-btn">Enquiry</button>
-                            </div>
+            <section class="ftco-section" id="products">
+                <div class="feedback-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-center mb-5">
+                            <h2 class="heading-section">PRODUCTS</h2>
                         </div>
-                        <div class="col-md-4">
-                            <div class="product-card">
-                                <button class="download-btn">Download Product Card</button>
-                                <img src="./assets/img/enquiry.jpg" alt="">
-                                <p class="mt-3 text-center font-bold">KITCHEN</p>
-                                <button class="enquiry-btn">Enquiry</button>
+                    </div>
+                    <div class="container page-wrapper">
+                        <div class="page-inner">
+                          <div class="el-wrapper">
+                            <div class="box-up">
+                              <img class="img" src="./assets/img/enquiry.jpg" alt="">
+                              <div class="img-info">
+                                <div class="info-inner">
+                                  <span class="p-name">I feel like Pablo</span>
+                                  <span class="p-company">Yeezy</span>
+                                </div>
+                                <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+                              </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-card">
-                                <button class="download-btn">Download Product Card</button>
-                                <img src="./assets/img/enquiry.jpg" alt="">
-                                <p class="mt-3 text-center font-bold">DINING HALL</p>
-                                <button class="enquiry-btn">Enquiry</button>
+                            <div class="box-down">
+                              <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                              </div>
+                              <a class="cart" href="#">
+                                <span class="price">$120</span>
+                                <span class="add-to-cart">
+                                  <span class="txt">DOWNLOAD</span>
+                                </span>
+                              </a>
                             </div>
+                          </div>
+                          <div class="el-wrapper">
+                            <div class="box-up">
+                              <img class="img" src="./assets/img/enquiry.jpg" alt="">
+                              <div class="img-info">
+                                <div class="info-inner">
+                                  <span class="p-name">I feel like Pablo</span>
+                                  <span class="p-company">Yeezy</span>
+                                </div>
+                                <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+                              </div>
+                            </div>
+                            <div class="box-down">
+                              <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                              </div>
+                              <a class="cart" href="#">
+                                <span class="price">$120</span>
+                                <span class="add-to-cart">
+                                  <span class="txt">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="el-wrapper">
+                            <div class="box-up">
+                              <img class="img" src="./assets/img/enquiry.jpg" alt="">
+                              <div class="img-info">
+                                <div class="info-inner">
+                                  <span class="p-name">I feel like Pablo</span>
+                                  <span class="p-company">Yeezy</span>
+                                </div>
+                                <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+                              </div>
+                            </div>
+                            <div class="box-down">
+                              <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                              </div>
+                              <a class="cart" href="#">
+                                <span class="price">$120</span>
+                                <span class="add-to-cart">
+                                  <span class="txt">DOWNLOAD</span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
+                
             </section>
 
             <!--=============== PAYMENT ===============-->
-            <section class="container section" id="payment">
+            <section class="ftco-section" id="payment">
                 <div class="feedback-container">
-                    <h2 class="section__title">Payment</h2>
-                    <!-- Payment section Start -->
-                    <section class="ftco-section">
-                        <h5 class="post-headline">Google Pay Number: 888888888</h5>
-                        <h5 class="sub-heading">QR Codes</h5>
-                        <h5 class="sub-heading">Google Pay</h5>
-                        <img src="./assets/img/qr-code.jpg" alt="QR Code" class="qr-code">
-                        <h5 class="sub-heading">Phone Pe</h5>
-                        <img src="./assets/img/qr-code.jpg" alt="QR Code" class="qr-code">
-                    </section>
-                    <!-- Payment section End -->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">PAYMENT</h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6 d-flex align-items-center">
+                                            <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                <div class="col-md-12">
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <p class="feedback-text">Google Pay : +91-9800789879</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <p class="feedback-text">QR Codes :</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex align-items-stretch">
+                                            <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                                <h3>Google Pay</h3>
+                                                <img src="./assets/img/qr-code.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
+                
             </section>
 
             <!--=============== GALLERY ===============-->
-            <section class="container" id="gallery">
+            <section class="ftco-section" id="gallery">
                 <div class="feedback-container">
-                    <h2 class="section__title">Gallery</h2>
-                <div class="container-fluid pt70 pb70 mb-6">
-                    <div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
-                        <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">GALLERY</h2>
+                            </div>
                         </div>
-                        <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
-                        </div>
-                        <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
-                        </div>
-                        <!-- <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
-                        </div>
-                        <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
-                        </div>
-                        <div class="fh5co-project masonry-brick">
-                            <a href="single.html">
-                                <img src="./assets/img/enquiry.jpg" alt="Free HTML5 by FreeHTML5.co">
-                                <h2>Your Project Title Here</h2>
-                            </a>
-                        </div> -->
-                        </div>
-                    <!--END .fh5co-projects-feed-->
-                </div>
+                        <div class="album">
+                            <div class="responsive-container-block bg">
+                              <div class="responsive-container-block img-cont">
+                                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg">
+                                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.5.svg">
+                                <img class="img img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.6.svg">
+                              </div>
+                              <div class="responsive-container-block img-cont">
+                                <img class="img img-big" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.11.svg">
+                                <img class="img img-big img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.10.svg">
+                              </div>
+                              <div class="responsive-container-block img-cont">
+                                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.7.svg">
+                                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.8.svg">
+                                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.9.svg">
+                              </div>
+                            </div>
+                          </div>
+                    </div>
                 </div>
                 
             </section>
 
             <!--=============== FEEDBACK ===============-->
-            <section class="container mt-6" id="feedback">
-                <!-- <h2 class="section__title" style="margin-top: 80px;">Feedback</h2> -->
+            <section class="ftco-section" id="feedback">
                 <div class="feedback-container">
-                    <h1 class="section__title">Feedback</h1>
-                    <div class="ratings">
-                        <p class="ratings-text">Rate your experience:</p>
-                        <div class="star-rating">
-                            <!-- Stars will be added dynamically based on user interaction -->
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">FEEDBACKS</h2>
+                            </div>
                         </div>
-                    </div>
-                    <button class="load-more-btn">Load More Feedbacks</button>
-                    <form class="feedback-form">
-                        <div class="stars-row">
-                            <!-- Stars will be added dynamically based on user interaction -->
-                        </div>
-                        <input type="text" placeholder="Enter your name">
-                        <textarea placeholder="Enter your message"></textarea>
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <button type="submit" class="submit-btn">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </section>
-
-            <!--=============== ENQUIRY ===============-->
-            <section class="container section section__height" id="enquiry">
-
-                <!-- Enquiry Form Start -->
-                <div class="feedback-container">
-                    <h2 class="section__title">Enquiry Form</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-md-12">
-                            <div class="wrapper">
-                                <!-- <div class="row mb-5">
-                                    <div class="col-md-3">
-                                        <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-map-marker"></span>
-                                    </div>
-                                    <div class="text">
-                                    <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-phone"></span>
-                                    </div>
-                                    <div class="text">
-                                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-paper-plane"></span>
-                                    </div>
-                                    <div class="text">
-                                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-globe"></span>
-                                    </div>
-                                    <div class="text">
-                                    <p><span>Website</span> <a href="#">yoursite.com</a></p>
-                                    </div>
-                                </div>
-                                    </div>
-                                </div> -->
-                                <div class="row no-gutters">
-                                    <div class="col-md-7">
-                                        <div class="contact-wrap w-100 p-md-5 p-4">
-                                            <h3 class="mb-4">Contact Us</h3>
-                                            <div id="form-message-warning" class="mb-4"></div> 
-                                        <div id="form-message-success" class="mb-4">
-                                    Your message was sent, thank you!
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6">
+                                            <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                <h3 class="mb-4">Send us a message</h3>
+                                                <div id="form-message-warning" class="mb-4"></div> 
+                                          <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                          </div>
+                                                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Enter Your Feedback"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Give Feedback" class="btn btn-primary">
+                                                                <div class="submitting"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
-                                            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label class="label" for="name">Full Name</label>
-                                                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6"> 
-                                                        <div class="form-group">
-                                                            <label class="label" for="email">Email Address</label>
-                                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label class="label" for="phone-number">Phone number</label>
-                                                            <input type="text" class="form-control" name="phone-number" id="phone-number" placeholder="Phone Number">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label class="label" for="#">Message</label>
-                                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="submit" value="Send Message" class="btn btn-primary">
-                                                            <div class="submitting"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
+                                        <div class="col-md-6 d-flex align-items-stretch">
+                                            <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                                <h3>Reviews</h3>
+                                        <div class="dbox w-100 d-flex align-items-start">
+                                            <p>Mr. PRAMOD MAHARANA</p>
+                                            <div class="stars">
+                                                <input type="radio" id="star5" name="rating" value="5">
+                                                <label for="star5">★</label>
+                                                <input type="radio" id="star4" name="rating" value="4">
+                                                <label for="star4">★</label>
+                                                <input type="radio" id="star3" name="rating" value="3">
+                                                <label for="star3">★</label>
+                                                <input type="radio" id="star2" name="rating" value="2">
+                                                <label for="star2">★</label>
+                                                <input type="radio" id="star1" name="rating" value="1">
+                                                <label for="star1">★</label>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-5 d-flex align-items-stretch">
-                                        <div class="info-wrap w-100 p-5 img" style="background-image: url(./assets/img/enquiry.jpg);">
-                                </div>
+                                        <div class="dbox w-100 d-flex align-items-start">
+                                            <p>Mr. PRAMOD MAHARANA</p>
+                                            <div class="stars">
+                                                <input type="radio" id="star5" name="rating" value="5">
+                                                <label for="star5">★</label>
+                                                <input type="radio" id="star4" name="rating" value="4">
+                                                <label for="star4">★</label>
+                                                <input type="radio" id="star3" name="rating" value="3">
+                                                <label for="star3">★</label>
+                                                <input type="radio" id="star2" name="rating" value="2">
+                                                <label for="star2">★</label>
+                                                <input type="radio" id="star1" name="rating" value="1">
+                                                <label for="star1">★</label>
+                                            </div>
+                                        </div>
+                                        <div class="dbox w-100 d-flex align-items-start">
+                                            <p>Mr. PRAMOD MAHARANA</p>
+                                            <div class="stars">
+                                                <input type="radio" id="star1" name="rating" value="5">
+                                                <label for="star5">★</label>
+                                                <input type="radio" id="star2" name="rating" value="4">
+                                                <label for="star4">★</label>
+                                                <input type="radio" id="star3" name="rating" value="3">
+                                                <label for="star3">★</label>
+                                                <input type="radio" id="star4" name="rating" value="2">
+                                                <label for="star2">★</label>
+                                                <input type="radio" id="star5" name="rating" value="1">
+                                                <label for="star1">★</label>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Enquiry Form End -->
+                
+            </section>
+
+            <!--=============== ENQUIRY ===============-->
+            <section class="ftco-section" id="enquiry">
+                <div class="feedback-container">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">ENQUIRY FORM</h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6">
+                                            <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                <h3 class="mb-4">Send us a message</h3>
+                                                <div id="form-message-warning" class="mb-4"></div> 
+                                          <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                          </div>
+                                                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12"> 
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Send Message" class="btn btn-primary">
+                                                                <div class="submitting"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex align-items-stretch">
+                                            <img src="./assets/img/enquiry.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
 
             <!--=============== SHARE ===============-->
-            <section class="container section section__height" id="share">
-                <h2 class="section__title">Share</h2>
+            <section class="ftco-section" id="share">
+                <div class="feedback-container">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">SHARE</h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6">
+                                            <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                <h3 class="mb-4">Send us a message</h3>
+                                                <div id="form-message-warning" class="mb-4"></div> 
+                                          <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                          </div>
+                                                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12"> 
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Send Message" class="btn btn-primary">
+                                                                <div class="submitting"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex align-items-stretch">
+                                            <img src="./assets/img/enquiry.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
         </main>
         

@@ -245,7 +245,7 @@ figure {
 /*# sourceMappingURL=style.css.map */
 
 .feedback-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -378,3 +378,5 @@ textarea {
   height: 300px;
   width: 200px;
 }
+
+
