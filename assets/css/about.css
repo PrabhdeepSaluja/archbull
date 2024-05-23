@@ -1444,3 +1444,44 @@ textarea:focus ~ .highlight {
       margin-right: 20px;
   }
 }
+
+.service ul {
+  padding-left: 20px;
+}
+
+.service ul li {
+  text-align: left;
+  position: relative;
+}
+
+.service ul li::before {
+  content: "\2022"; /* Bullet character */
+  color: #000; /* Bullet color */
+  font-size: 1.2em; /* Adjust size as needed */
+  position: absolute;
+  left: -15px; /* Adjust distance from the text */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-group{
+  /* height: 200px; */
+  position: relative;
+  /* border: 3px solid green; */
+}
+
+.url-copy{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-group p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
