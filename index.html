@@ -24,6 +24,8 @@
 
         <link rel="stylesheet" href="assets/css/home-2.css"> 
 
+        <!-- <link rel="stylesheet" href="assets/css/home-3.css"> -->
+
         <link rel="stylesheet" href="assets/css/products.css"> 
 
         <!-- <link rel="stylesheet" href="assets/css/payment.css"> -->
@@ -35,7 +37,7 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <!-- <a href="#" class="nav__logo">Marlon</a> -->
-
+        
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
@@ -48,166 +50,114 @@
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
                                 <i class='bx bx-user nav__icon'></i>
-                                <span class="nav__name">About Us</span>
+                                <span class="nav__name">About</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#products" class="nav__link">
                                 <i class='bx bx-book-alt nav__icon'></i>
                                 <span class="nav__name">Products</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#payment" class="nav__link">
                                 <i class='bx bx-briefcase-alt nav__icon'></i>
                                 <span class="nav__name">Payment</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#gallery" class="nav__link">
                                 <i class='bx bx-message-square-detail nav__icon'></i>
                                 <span class="nav__name">Gallery</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#feedback" class="nav__link">
                                 <i class='bx bx-message-square-detail nav__icon'></i>
                                 <span class="nav__name">Feedback</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#enquiry" class="nav__link">
-                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <i class='bx bx-mail-send nav__icon'></i>
                                 <span class="nav__name">Enquiry</span>
                             </a>
                         </li>
-
+        
                         <li class="nav__item">
                             <a href="#share" class="nav__link">
-                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <i class='bx bx-share-alt nav__icon'></i>
                                 <span class="nav__name">Share</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-
-                <img src="assets/img/perfil.png" alt="" class="nav__img">
+        
             </nav>
         </header>
+        
 
         <main>
             <!--=============== HOME ===============-->
-            <section class="container section">
-                <div class="ftco-section" id="home">
-                    <div class="feedback-container">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-6 text-center mb-2">
-                                    <h2 class="heading-section">HOME</h2>
-                                </div>
+
+            <section class="ftco-section" id="feedback">
+                <div class="feedback-container">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                                <h2 class="heading-section">HOME</h2>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-12">
-                                    <div class="">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-6">
-                                                <div class="contact-wrap w-100 p-lg-5 p-4">
-                                                    <h3 class="mb-4">Send us a message</h3>
-                                                    <div id="form-message-warning" class="mb-4"></div> 
-                                              <div id="form-message-success" class="mb-4">
-                                            Your message was sent, thank you!
-                                              </div>
-                                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12"> 
-                                                                <div class="form-group">
-                                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <input type="submit" value="Send Message" class="btn btn-primary">
-                                                                    <div class="submitting"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10">
+                                <div class="">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6">
+                                            <div class="contact-wrap w-100 p-lg-5 p-4">
+                                                <div id="form-message-warning" class="mb-4"></div> 
+                                                <div class="image-container" style="text-align: center;">
+                                                    <img src="./assets/img/logo.png" style="height: auto; width: 250px;" alt="">
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6 d-flex align-items-stretch">
-                                                <div class="info-wrap w-100 p-lg-5 p-4 img">
-                                                    <!-- <img src="./assets/img/logo.jpeg" style="height: auto; width: 150px;" alt=""> -->
-                                                    <!-- <h3>Contact us</h3> -->
-                                                    <!-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> -->
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="dbox w-100 d-flex align-items-start">
-                                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                                    <span class="fa fa-map-marker"></span>
-                                                                </div>
-                                                                <div class="text pl-3">
-                                                                    <p>Mr. Pramod Maharana</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="dbox w-100 d-flex align-items-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                                    <span class="fa fa-paper-plane"></span>
-                                                                </div>
-                                                                <div class="text pl-3">
-                                                                    <p>Kanchpada, Malad(West Mumbai)</p>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="dbox w-100 d-flex align-items-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                                    <span class="fa fa-phone"></span>
-                                                                </div>
-                                                                <div class="text pl-3">
-                                                                    <p>+91-9325528578</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="dbox w-100 d-flex align-items-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                                    <span class="fa fa-globe"></span>
-                                                                </div>
-                                                                <div class="text pl-3">
-                                                                    <p>ppramod.maharana1984@gmail.com</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="dbox w-100 d-flex align-items-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                                    <span class="fa fa-globe"></span>
-                                                                </div>
-                                                                <div class="text pl-3">
-                                                                    <p>http://www.archbull.in</p>
-                                                                </div>
-                                                            </div>
+                                                <h5 style="color: #fff; text-align: center; margin-bottom: 20px;">MR. PRAMOD MAHARANA</h5>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="form-group">
+                                                            <input type="submit" value="Add To Phone Book" class="btn btn-primary">
+                                                            <div class="submitting"></div>
                                                         </div>
                                                     </div>
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="form-group">
+                                                            <input type="submit" value="Save Card" class="btn btn-primary">
+                                                            <div class="submitting"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex align-items-stretch">
+                                            <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                                <h4>Contact Information</h4>
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <p>Address</p>
+                                                    <p>Kanchpada, Malad (West Mumbai)</p>
+                                                </div>
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <p>Phone Number</p>
+                                                    <p>9325528578</p>
+                                                </div>
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <p>Email</p>
+                                                    <p>ppramod.maharana1984@gmail.com</p>
+                                                </div>
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <p>Website</p>
+                                                    <p>http://www.archbull.in</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -216,8 +166,8 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
+                   
             </section>
             
 
@@ -542,7 +492,6 @@
                         </div>
                     </div>
                 </div>
-                
             </section>
 
             <!--=============== ENQUIRY ===============-->
