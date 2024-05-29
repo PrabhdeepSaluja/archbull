@@ -8231,11 +8231,12 @@ textarea.form-control {
 
 .info-wrap h3 {
   color: #000;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .info-wrap h3:after {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 35%;
     width: 60px;
     height: 3px;
     background: #d62196;
@@ -8331,3 +8332,35 @@ textarea.form-control {
   font-size: 16px;
   font-weight: 500;
   color: #28a745; }
+
+  /* Common styles for the nav__menu */
+.nav__menu {
+  white-space: nowrap; /* Prevent list items from wrapping onto multiple lines */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Apply styles for mobile screens */
+@media (max-width: 767px) {
+  .nav__menu {
+      overflow-x: auto; /* Enable horizontal scrolling for mobile */
+  }
+}
+
+/* Apply styles for desktop screens */
+@media (min-width: 768px) {
+  .nav__menu {
+      overflow-x: hidden; /* Disable horizontal scrolling for desktop */
+  }
+}
+
+.nav__list {
+  display: inline-block; /* Display list items in a line */
+  padding: 0; 
+  margin-left: 250px; /* Adjust as necessary */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.nav__item {
+  display: inline-block; /* Display list items in a line */
+  margin-right: 10px; /* Add some space between items */
+}
